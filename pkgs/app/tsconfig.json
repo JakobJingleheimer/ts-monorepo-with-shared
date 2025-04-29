@@ -1,0 +1,9 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+    "baseUrl": "./src",
+		"jsx": "preserve",
+    "lib": [ "DOM", "DOM.Iterable", "ESNext" ],
+    "outDir": "./build",
+	}
+}

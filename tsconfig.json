@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowImportingTsExtensions": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "checkJs": true,
+    "esModuleInterop": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "lib": [ "ESNext" ],
+    "module": "esnext",
+    "moduleResolution": "bundler",
+		"noEmit": true,
+    "noImplicitAny": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strictNullChecks": true,
+    "verbatimModuleSyntax": true,
+    "rewriteRelativeImportExtensions": true,
+    "target": "es2022",
+    "resolvePackageJsonExports": true,
+    "preserveConstEnums": true,
+    "useDefineForClassFields": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
